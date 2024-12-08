@@ -29,6 +29,4 @@ Image Path Errors: Initially, my images didn’t load because of incorrect relat
 Responsive Design: Ensuring the design looks good on smaller devices was a bit challenging. I learned how to use CSS media queries but didn’t fully optimize all sections.
 Time Management: Balancing between learning and completing the tasks within the deadline was a challenge.
 
-Reflection as a Beginner:
-
 This assignment was a great learning experience, helping me understand the fundamentals of web development. I’m proud of the progress I made, and I now have a better foundation to tackle more advanced projects in the future.
