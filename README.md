@@ -1,7 +1,7 @@
 # Week1-assignment
 Requirements Achieved:
 
-As a beginner, I successfully completed the core requirements for this project:
+As a be I successfully completed the core requirements for this project:
 
 Structured the webpage with semantic HTML tags for sections like header, hero, about, and footer.
 Styled the webpage using CSS, including responsive design elements and hover effects.
