@@ -12,7 +12,7 @@ body
 /* Optional: Style the text or container content to stand out */
 .container {
     color: rgb(48, 46, 46); /* Example: white text to contrast with the background */
-    padding: 20px;
+    padding: length;
     text-align: center;
 }
 
@@ -22,6 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    color: #a1c4d9;
     background-color: #2d2d2d; /* Dark blue representing technology and trust */
 }
 
@@ -37,7 +38,6 @@ header nav ul {
 
 header nav ul li {
     margin-left: 20px;
-    
 }
 
 header nav ul li a {
@@ -74,7 +74,7 @@ header nav ul li a:hover {
 .hero p {
     font-size: absolute-size;
     margin-bottom: 1rem;
-    color:  #f5f7f9; /* Light blue text for contrast */
+    color:  #030506; /* Light blue text for contrast */
 }
 
 .btn {
