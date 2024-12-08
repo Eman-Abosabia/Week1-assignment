@@ -1,0 +1,151 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+/* Set the background image for the entire page */
+body
+
+/* Optional: Style the text or container content to stand out */
+.container {
+    color: rgb(48, 46, 46); /* Example: white text to contrast with the background */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #2d2d2d; /* Dark blue representing technology and trust */
+}
+
+header .logo img {
+    height: 80px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 20px;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #a1c4d9; /* Soft, light blue for links */
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #fcb040;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    color: #181717; /* White text to stand out against the background */
+}
+
+.hero-text {
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #fcb040; /*  yellow/orange for the title */
+    background-color: #ece8e8; /* Neutral dark gray background for professional tone */
+}
+
+.hero p {
+    font-size: absolute-size;
+    margin-bottom: 1rem;
+    color:  #f5f7f9; /* Light blue text for contrast */
+}
+
+.btn {
+    background-color: #fcb040; /* buttons */
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #0e0e0e; /* Dark text for readability */
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #f08e1b; /* Slightly darker shade on hover */
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background-color:  #ece8e8; /* Cool, professional teal representing sustainability */
+    text-align: center;
+    .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+#about h2 {
+    font-size: absolute-size;
+    margin-bottom: 20px;
+    color: #fcb040; /* White text for clarity */
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        border: 2px solid  #2d2d2d;
+        margin: 20px;
+    }
+    
+    .box {
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+    .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Missions Section */
+#missions {
+    padding: 50px 20px;
+    background-color:  #ece8e8; /* Cool, professional teal representing sustainability */
+    text-align: center;
+}
+
+#missions h2 {
+    font-size: absolute-size;
+    margin-bottom: 20px;
+    color: #fcb040; /* Color to highlight section headings */
+}
+
+/* Footer */
+footer {
+    text-align: right;
+    padding: 20px;
+    background-color: #2d2d2d; /* Dark gray footer */
+    color: #a1c4d9; /* Light blue for footer text */
+}
